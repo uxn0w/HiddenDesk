@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D9EF3252AAE72B8003ABBBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EF3242AAE72B8003ABBBE /* AppDelegate.m */; };
+		2D9EF32C2AAE72BA003ABBBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9EF32B2AAE72BA003ABBBE /* main.m */; };
+		2DD1CC4B2AAE73E10059A98A /* NSTaskHideDesktopMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1CC482AAE73E10059A98A /* NSTaskHideDesktopMethod.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D9EF3202AAE72B8003ABBBE /* HiddenDesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiddenDesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D9EF3232AAE72B8003ABBBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D9EF3242AAE72B8003ABBBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D9EF32B2AAE72BA003ABBBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D9EF32D2AAE72BA003ABBBE /* HiddenDesk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HiddenDesk.entitlements; sourceTree = "<group>"; };
+		2DD1CC482AAE73E10059A98A /* NSTaskHideDesktopMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSTaskHideDesktopMethod.m; sourceTree = "<group>"; };
+		2DD1CC492AAE73E10059A98A /* NSTaskHideDesktopMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTaskHideDesktopMethod.h; sourceTree = "<group>"; };
+		2DD1CC4A2AAE73E10059A98A /* HideDesktopMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HideDesktopMethod.h; sourceTree = "<group>"; };
+		2DD1CC4C2AAE799F0059A98A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D9EF31D2AAE72B8003ABBBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D9EF3172AAE72B8003ABBBE = {
+			isa = PBXGroup;
+			children = (
+				2D9EF3222AAE72B8003ABBBE /* HiddenDesk */,
+				2D9EF3212AAE72B8003ABBBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D9EF3212AAE72B8003ABBBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D9EF3202AAE72B8003ABBBE /* HiddenDesk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D9EF3222AAE72B8003ABBBE /* HiddenDesk */ = {
+			isa = PBXGroup;
+			children = (
+				2DD1CC4E2AAE7AB50059A98A /* App */,
+				2DD1CC4D2AAE7A170059A98A /* Resources */,
+				2D9EF32B2AAE72BA003ABBBE /* main.m */,
+			);
+			path = HiddenDesk;
+			sourceTree = "<group>";
+		};
+		2DD1CC462AAE73E10059A98A /* Method */ = {
+			isa = PBXGroup;
+			children = (
+				2DD1CC472AAE73E10059A98A /* NSTask */,
+				2DD1CC4A2AAE73E10059A98A /* HideDesktopMethod.h */,
+			);
+			path = Method;
+			sourceTree = "<group>";
+		};
+		2DD1CC472AAE73E10059A98A /* NSTask */ = {
+			isa = PBXGroup;
+			children = (
+				2DD1CC482AAE73E10059A98A /* NSTaskHideDesktopMethod.m */,
+				2DD1CC492AAE73E10059A98A /* NSTaskHideDesktopMethod.h */,
+			);
+			path = NSTask;
+			sourceTree = "<group>";
+		};
+		2DD1CC4D2AAE7A170059A98A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2DD1CC4C2AAE799F0059A98A /* Info.plist */,
+				2D9EF32D2AAE72BA003ABBBE /* HiddenDesk.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2DD1CC4E2AAE7AB50059A98A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2DD1CC462AAE73E10059A98A /* Method */,
+				2D9EF3232AAE72B8003ABBBE /* AppDelegate.h */,
+				2D9EF3242AAE72B8003ABBBE /* AppDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D9EF31F2AAE72B8003ABBBE /* HiddenDesk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D9EF3302AAE72BA003ABBBE /* Build configuration list for PBXNativeTarget "HiddenDesk" */;
+			buildPhases = (
+				2D9EF31C2AAE72B8003ABBBE /* Sources */,
+				2D9EF31D2AAE72B8003ABBBE /* Frameworks */,
+				2D9EF31E2AAE72B8003ABBBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiddenDesk;
+			productName = HiddenDesk;
+			productReference = 2D9EF3202AAE72B8003ABBBE /* HiddenDesk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D9EF3182AAE72B8003ABBBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2D9EF31F2AAE72B8003ABBBE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2D9EF31B2AAE72B8003ABBBE /* Build configuration list for PBXProject "HiddenDesk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D9EF3172AAE72B8003ABBBE;
+			productRefGroup = 2D9EF3212AAE72B8003ABBBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D9EF31F2AAE72B8003ABBBE /* HiddenDesk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D9EF31E2AAE72B8003ABBBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D9EF31C2AAE72B8003ABBBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DD1CC4B2AAE73E10059A98A /* NSTaskHideDesktopMethod.m in Sources */,
+				2D9EF32C2AAE72BA003ABBBE /* main.m in Sources */,
+				2D9EF3252AAE72B8003ABBBE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2D9EF32E2AAE72BA003ABBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2D9EF32F2AAE72BA003ABBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2D9EF3312AAE72BA003ABBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HiddenDesk/Resources/HiddenDesk.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HiddenDesk/Resources/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uxnow.HiddenDesk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		2D9EF3322AAE72BA003ABBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HiddenDesk/Resources/HiddenDesk.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HiddenDesk/Resources/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uxnow.HiddenDesk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D9EF31B2AAE72B8003ABBBE /* Build configuration list for PBXProject "HiddenDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D9EF32E2AAE72BA003ABBBE /* Debug */,
+				2D9EF32F2AAE72BA003ABBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D9EF3302AAE72BA003ABBBE /* Build configuration list for PBXNativeTarget "HiddenDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D9EF3312AAE72BA003ABBBE /* Debug */,
+				2D9EF3322AAE72BA003ABBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D9EF3182AAE72B8003ABBBE /* Project object */;
+}
