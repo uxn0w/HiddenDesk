@@ -1,7 +1,8 @@
 # HiddenDesk
-![Screen](HiddenDesk/HiddenDesk/Resources/screen.png)
-
 **HiddenDesk** is a free [HiddenMe app](https://apps.apple.com/ru/app/hiddenme/id467040476?mt=12).
+
+
+![Screen](HiddenDesk/Resources/screen.png)
 
 > ⚠️ **Warning** - Academic project. It is not intended for public use.
 
